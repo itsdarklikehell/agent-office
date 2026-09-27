@@ -14,6 +14,11 @@ Inspired by [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pi
 
 ## quick start
 
+## Ontwikkeltijdlijn
+
+<video src="https://raw.githubusercontent.com/itsdarklikehell/agent-office/master/gource.mp4" controls width="100%"></video>
+
+
 ```bash
 git clone https://github.com/NosytLabs/agent-office
 cd agent-office
