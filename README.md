@@ -35,6 +35,22 @@ Then open **http://127.0.0.1:8113** — no agents handy? `python3 demo_feed.py`
 The installer wires only what you already have. Run it again any time to add
 a new runtime.
 
+## 🎥 Gource Visualization
+
+De ontwikkelhistorie van dit project wordt automatisch gegenereerd door de [Gource workflow](.github/workflows/gource.yml) bij elke push — rendered via [nbprojekt/gource-action@v1](https://github.com/marketplace/actions/gource-action) in 1080p. Het video-artifact is 90 dagen beschikbaar via de workflow-run (Actions → gource-video).
+
+<video src="https://raw.githubusercontent.com/itsdarklikehell/agent-office/main/gource/gource.mp4" controls width="100%"></video>
+
+Lokale video genereren:
+```bash
+gource --seconds-per-day 1 -1920x1080 --auto-skip-seconds 1 \
+  --hide-users --hide-filenames --title "agent-office — pixel-art virtual office for AI agents" \
+  --output-ppm-stream - --output-framerate 30 2>/dev/null | \
+ffmpeg -y -r 30 -i - -c:v libx264 -preset fast -crf 23 \
+  -pix_fmt yuv420p -c:a aac -b:a 128k -movflags +faststart \
+  agent-office_gource_1080p.mp4 2>/dev/null
+```
+
 ## supported runtimes
 
 | name | what | install |
