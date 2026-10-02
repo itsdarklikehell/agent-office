@@ -1,5 +1,12 @@
 # Agent Office
 
+[![CI](https://github.com/itsdarklikehell/agent-office/actions/workflows/ci.yml/badge.svg)](https://github.com/itsdarklikehell/agent-office/actions/workflows/ci.yml)
+[![Gource](https://github.com/itsdarklikehell/agent-office/actions/workflows/gource.yml/badge.svg)](https://github.com/itsdarklikehell/agent-office/actions/workflows/gource.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/itsdarklikehell/agent-office)](https://github.com/itsdarklikehell/agent-office/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/itsdarklikehell/agent-office)](https://github.com/itsdarklikehell/agent-office/pulls)
+
+
 **Multi-runtime pixel-art virtual office for AI coding agents.**
 
 One floor for every agent you run — Hermes, OpenCode, Claude Code,
