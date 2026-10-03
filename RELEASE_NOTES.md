@@ -1,7 +1,8 @@
 # Release Notes
 
-## 2026-10-02
+## 2026-10-03
 
+* docs: update RELEASE_NOTES.md (ea33481)
 * docs: add README badges (6be023c)
 * chore: add GitHub templates and workflows (4e0963b)
 * Merge branch 'main' of https://github.com/NosytLabs/agent-office (2bafde0)
@@ -21,4 +22,3 @@
 * chore(actions): remove completed artifact prune helper [skip ci] (d1eec5b)
 * ops: prune stale artifacts once (75a1209)
 * chore(actions): remove completed failure-prune helper [skip ci] (6bafbae)
-* ops: prune stale failed runs once (a66ce8b)
